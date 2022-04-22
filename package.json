@@ -10,6 +10,8 @@
     "format": "prettier . --write",
     "check-types": "tsc --pretty --noEmit",
     "check-all": "yarn format && yarn lint && yarn check-types",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "yarn build",
     "prepare": "husky install"
   },
   "dependencies": {
