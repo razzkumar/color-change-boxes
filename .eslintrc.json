@@ -1,0 +1,20 @@
+{
+  "extends": ["eslint:recommended", "prettier"],
+  "rules": {
+    "no-console": [
+      "error",
+      {
+        "allow": ["warn", "error"]
+      }
+    ],
+    "semi": [2, "always"],
+    "eqeqeq": [2, "always"],
+    "eol-last": [2, "always"],
+    "no-unused-vars": 1,
+    "no-unreachable": 2,
+    "no-multi-spaces": 2,
+    "space-before-blocks": 2,
+    "newline-before-return": 2,
+    "no-unexpected-multiline": 2
+  }
+}
